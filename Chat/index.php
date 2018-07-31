@@ -8,7 +8,9 @@
 <body>
 
 <?php
-include('traitement.php');
+    if(isset($_POST)) && !empty($_POST)) {
+        include('traitement.php');
+    }
 ?>
 
 <center>    <h1>Mini Miaou</h1> </center>
