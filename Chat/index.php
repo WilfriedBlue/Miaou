@@ -8,6 +8,10 @@
 <body>
 
 <?php
+    
+// Ok pour appeller traitement.php directement depuis index.php
+// Mais attention de le faire dans ce cas uniquement si des paramètres POST sont fournis
+    
 include('traitement.php');
 ?>
 
